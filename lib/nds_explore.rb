@@ -13,7 +13,7 @@ def print_first_directors_movie_titles
   i = 0 
   spileburg = directors_database[0]
   while i < spileburg[:movies].length do 
-    puts sileburg[:movies][i][:title]
+    puts spileburg[:movies][i][:title]
     i += 1 
   end 
   
